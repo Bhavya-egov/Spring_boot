@@ -1,22 +1,24 @@
 package com.example.AssignmentSpringBootApplication;
 
+import java.util.UUID;
+
 public class UserSearchCriteria {
-    private int id;
+    private UUID id;
     private String phone_no;
 
     public UserSearchCriteria() {
     }
 
-    public UserSearchCriteria(int id, String phone_no) {
+    public UserSearchCriteria(UUID id, String phone_no) {
         this.id = id;
         this.phone_no = phone_no;
     }
 
-    public int getId() {
+    public UUID getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 
